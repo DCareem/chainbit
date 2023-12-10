@@ -1,7 +1,6 @@
 import secrets
 import string
 
-# Using punctuation, without chars that can break in the cli (quotes, backslash, backtick...)
 chars = string.ascii_letters + string.digits + "$%*+,-./:=>?@^_~"
 
 
